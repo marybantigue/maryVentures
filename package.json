@@ -1,0 +1,40 @@
+{
+  "name": "maryVentures",
+  "version": "1.0.0",
+  "description": "My GraphCMS Blog using Apollo Client and create-react-app",
+  "repository": "https://github.com/hmeissner/graphcms-templates",
+  "author": "Mary Bantigue <marybantigue@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "apollo-cache-inmemory": "^1.1.1",
+    "apollo-client": "^2.0.3",
+    "apollo-link-http": "^1.2.0",
+    "graphql": "^0.11.7",
+    "graphql-tag": "^2.5.0",
+    "react": "^16.1.1",
+    "react-apollo": "^2.0.1",
+    "react-dom": "^16.1.1",
+    "react-markdown": "^3.1.0",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.0.17"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "standard && react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "lint": "standard --fix"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.0.2",
+    "browser-sync": "^2.23.7",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-sass": "^4.0.1",
+    "gulp-sourcemaps": "^2.6.4",
+    "standard": "^10.0.3"
+  },
+  "standard": {
+    "parser": "babel-eslint"
+  }
+}
